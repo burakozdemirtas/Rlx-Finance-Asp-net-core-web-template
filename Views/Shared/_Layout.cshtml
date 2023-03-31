@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <style>
+        .collapse .nav-item .nav-link {
+            color: #ECF0F1;
+            font-size: large;
+            margin-right: 10px;
+            font-family: Montserrat;
+            word-spacing: 3px;
+        }
+
+        .collapse .nav-item:hover .nav-link {
+            color: #4169e1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid p-2 m-0" style="background-color:#112349; ">
+
+        <div class="container" style="">
+            <nav class="navbar navbar-expand-lg  " style="height:auto; display:flex; flex-wrap:wrap; ">
+                <div class=""><p class="h3"> <a asp-action="Index" asp-controller="Home" style="text-decoration:none; color:white;">RLX FINANCE</a> </p></div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color:white; font-size:28px"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" style=" justify-content: flex-end;">
+                    <ul class="navbar-nav" style=" text-decoration:none;">
+                        <li class="nav-item active">
+                            <a class="nav-link" asp-action="Index" asp-controller="Home">ANASAYFA <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/burakozdemirtas" target="_blank">BİZE ULAŞIN</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/burakozdemirtas" target="_blank">HİZMETLERİMİZ</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                OTURUM AÇ
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="nav-link " href="#"> OTURUM AÇ-1</a>
+                                <a class="nav-link " href="#"> OTURUM AÇ-2</a>
+                                <a class="nav-link " href="#"> OTURUM AÇ-3</a>
+                                <a class="nav-link " href="#"> OTURUM AÇ-4</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Güncelleniyor</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+    </div>
+   
+    <div class="container-fluid" style="margin:0px; padding:0px;">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-white text-muted ">
+       
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+         
+        </section>
+        
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <a asp-action="Index" asp-controller="Home" style=" color:#6c757d;">RLXFINANCE.COM</a>
+                        </h6>
+                        <p>
+                            © 2023 - All rights reserved.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            MENU
+                        </h6>
+                        <p>
+                            <a asp-action="Index" asp-controller="Home" class="text-reset">Anasayfa</a>
+                        </p>
+                        <p>
+                            <a href="https://www.instagram.com/burakozdemirtas/" target="_blank" class="text-reset">Bize Ulaşın</a>
+                        </p>
+
+                        <p>
+                            <a asp-action="Index" asp-controller="Home" class="text-reset">Oturum Aç</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">İLETİŞİM</h6>
+                        <p><i class="fas fa-home me-3 text-grayish"></i> 1. Cadde 2.Sokak  Yesilyurt, Malatya / TURKEY</p>
+
+                        <p><i class="fas fa-phone me-3 text-grayish"></i> +90 (456) 789 01 23</p>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: #202346; color:white;">
+            © 2023 - All rights reserved.
+            <a class="text-reset fw-bold" href="#">RLXFINANCE.COM</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
