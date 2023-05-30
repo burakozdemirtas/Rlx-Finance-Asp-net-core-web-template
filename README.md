@@ -27,12 +27,11 @@ The goal of the project was to help users gain more information about a financia
 | :--- | 
 | [Burak ÖZDEMİRTAŞ](https://github.com/burakozdemirtas) |
 
+<div> 
+  <img src="https://github.com/burakozdemirtas/Rlx-Finance-Asp-net-core-web-template/assets/33163650/4c1ad1e8-b93f-4e4c-bc63-21860c03ff15">
+  <img src="https://github.com/burakozdemirtas/Rlx-Finance-Asp-net-core-web-template/assets/33163650/e5180bc2-f560-4c47-a06e-8d301f000fb3">
+</div>
 
-
-
-
-![screencapture-localhost-44386-2023-05-30-11_15_46](https://github.com/burakozdemirtas/Rlx-Finance-Asp-net-core-web-template/assets/33163650/161e9e0a-9205-4c7d-bfb7-dfc9ddbe89e4)
-![2](https://github.com/burakozdemirtas/Rlx-Finance-Asp-net-core-web-template/assets/33163650/36cef976-a051-45e2-aaa1-c6a7c73b03e9)
 
 
 
