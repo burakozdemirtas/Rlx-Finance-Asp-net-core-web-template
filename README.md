@@ -23,9 +23,19 @@ The goal of the project was to help users gain more information about a financia
 <hr></hr>
 
 # :fire: Geliştirici/Developer
-| Adı Soyadı | 
+| Adı Soyadı / Name Surname | 
 | :--- | 
 | [Burak ÖZDEMİRTAŞ](https://github.com/burakozdemirtas) |
+
+
+
+
+
+![screencapture-localhost-44386-2023-05-30-11_15_46](https://github.com/burakozdemirtas/Rlx-Finance-Asp-net-core-web-template/assets/33163650/161e9e0a-9205-4c7d-bfb7-dfc9ddbe89e4)
+![2](https://github.com/burakozdemirtas/Rlx-Finance-Asp-net-core-web-template/assets/33163650/36cef976-a051-45e2-aaa1-c6a7c73b03e9)
+
+
+
 
 
 
